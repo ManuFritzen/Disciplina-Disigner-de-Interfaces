@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designer de Interfaces</title>
+    <style>
+        table,th,td {border: 2px solid black;}
+    </style>
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="./img/img_html.png" alt="imagem html">
+            <figcaption>banner com imagem de html ilustrativo</figcaption>
+        </figure>
+    </header>
+    <nav>
+
+    </nav>
+    <main>
+        <h1>HTML</h1>
+        <p><i>HTML (Linguagem de Marcação de HiperTexto)</i> é o bloco de construção
+            mais básico da web. <b>o significado e a estrutura do conteúdo da web.</b>
+            Outras tecnologias além do HTML geralmente são usadas para descrever a 
+            aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) 
+            de uma página da web.
+        </p>
+        <h2><b>Exemplo de lista encadeada</b></h2>
+
+        <ol>
+            <li>Frutas
+                <ul>
+                    <li>Banana</li>
+                    <li>Maçã</li>
+                    <li>Abacate</li>
+                </ul>
+            </li>
+            <li>Legumes
+                <ul>
+                    <li>Cebola</li>
+                    <li>Pimentão</li>
+                </ul>
+            </li>
+            <li>Cereais
+                <ul>
+                    <li>Arroz</li>
+                    <li>Feijão</li>
+                </ul>
+            </li>        
+        </ol>
+
+        <h2><b>Exemplo de tabela</b></h2>
+
+        <table>
+            <caption>Lucro por Mês</caption>
+            <thead>
+                <tr>
+                    <th>Mês</th>
+                    <th colspan="2">Frutas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td>Banana</td>
+                    <td>Maçã</td>
+                </tr>
+                <tr>
+                    <td>Janeiro</td>
+                    <td>R$100</td>
+                    <td>R$50</td>
+                </tr>
+                <tr>
+                    <td>Fevereiro</td>
+                    <td>R$120</td>
+                    <td>R$100</td>
+                </tr>
+                <tr>
+                    <td>Março</td>
+                    <td>R$120</td>
+                    <td>R$150</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>R$340</td>
+                    <td>R$300</td>
+            </tr>
+            </tfoot>
+        </table>
+
+        <h2><b>Exemplo de formulário</b></h2>
+
+        <form>
+            <fieldset>
+                <legend>Dados:</legend>
+                <label for="n1">Nome:</label>
+                <input type="text" name="nome" id="n1"><br>
+                <label for="d1">Data de nascimento:</label>
+                <input type="date" name="dnasc" id="d1"><br>
+                <label for="cpf">CPF:</label>
+                <input type="number" name="num" id="cpf"><br>
+                <label for="e1">E-mail:</label>
+                <input type="text" name="email" id="e1"><br>
+                <label for="s1">Senha:</label>
+                <input type="password" id="s1">
+                <input type = "submit" value = "enviar"><br>
+            </fieldset>
+        </form>
+
+        <p>5 minutos de HTML</p>
+        <iframe src="https://www.youtube.com/embed/3oSIqIqzN3M" ></iframe>
+
+
+    </main>
+    <footer>
+        <p>Estou aprendendo HTML no curso TADS do IFRS de Rio Grande, conheça melhor:</p>
+        <a href="https://ifrs.edu.br/riogrande/" target="_blank"><img src="./img/img_ifrs.jpg" alt="Logo IFRS"></a>
+
+    </footer>    
+</body>
+</html>
